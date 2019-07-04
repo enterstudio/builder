@@ -19,7 +19,8 @@
     "source-map": "^0.5.3",
     "systemjs": "^0.19.46",
     "traceur": "0.0.105",
-    "uglify-js": "^2.6.1"
+    "uglify-js": "^2.6.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel": "^5.8.38",
@@ -38,12 +39,15 @@
   },
   "scripts": {
     "test": "mocha",
-    "update-expectations": "UPDATE_EXPECTATIONS=1 mocha"
+    "update-expectations": "UPDATE_EXPECTATIONS=1 mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/systemjs/builder/issues"
   },
-  "homepage": "https://github.com/systemjs/builder"
+  "homepage": "https://github.com/systemjs/builder",
+  "snyk": true
 }
