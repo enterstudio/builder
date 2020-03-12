@@ -14,7 +14,7 @@
     "data-uri-to-buffer": "0.0.4",
     "es6-template-strings": "^2.0.0",
     "glob": "^7.0.3",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.0",
     "rollup": "^0.36.3",
     "source-map": "^0.5.3",
     "systemjs": "^0.19.46",
